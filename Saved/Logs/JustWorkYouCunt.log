@@ -3934,3 +3934,193 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.13-12.35.34:249][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.04.13-12.35.34:249][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2516.480225, Update Interval: 333.443420
 [2026.04.13-12.39.22:504][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.04.13-12.40.15:131][550]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.04.13-12.40.15:136][550]LogUMGEditor: Disabling Slate Post Buffers for multi-window PIE session, currently not supported.
+[2026.04.13-12.40.15:136][550]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.13-12.40.15:136][550]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.04.13-12.40.15:136][550]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 603 us (total: 9.104 ms)
+[2026.04.13-12.40.15:136][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.13-12.40.15:137][550]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.04.13-12.40.15:143][550]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.13-12.40.15:145][550]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.284 ms (total: 31.759 ms)
+[2026.04.13-12.40.15:145][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008014s)
+[2026.04.13-12.40.15:145][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.008034s)
+[2026.04.13-12.40.15:165][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.04.13-12.40.15:169][550]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.04.13-12.40.15:171][550]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.13-12.40.15:171][550]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.13-12.40.15:171][550]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.13-12.40.15:171][550]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Listen Server, IsServer = 1, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.13-12.40.15:172][550]LogWorldPartition: Display: WorldPartition initialize took 1.642 ms (total: 395.531 ms)
+[2026.04.13-12.40.15:172][550]LogPlayLevel: PIE: World Init took: (0.002886s)
+[2026.04.13-12.40.15:173][550]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.13-12.40.15:173][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.13-12.40.15:173][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.13-12.40.15:173][550]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.13-12.40.15:173][550]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.13-12.40.15:173][550]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.13-12.40.15:175][550]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.13-12.40.15:191][550]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.04.13-12.40.15:192][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.13-12.40.15:192][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.13-12.40.15:192][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.13-12.40.15:192][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.04.13-12.40.15:192][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2026.04.13-12.40.15:194][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.04.13-12.40.15:194][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.04.13-12.40.15:194][550]LogInit: FAudioDevice initialized with ID 24.
+[2026.04.13-12.40.15:194][550]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_TopDown'.
+[2026.04.13-12.40.15:194][550]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.04.13-12.40.15:226][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.13-12.40.15:227][550]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.04.13-12.40.15:237][550]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.04.13-14.40.15
+[2026.04.13-12.40.15:239][550]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.04.13-12.40.15:240][550]LogWorld: Bringing up level for play took: 0.012563
+[2026.04.13-12.40.15:241][550]LogBlueprintUserMessages: [BP_TopDownGameMode_C_0] Server: Player:0
+[2026.04.13-12.40.15:241][550]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.04.13-12.40.15:241][550]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.04.13-12.40.15:241][550]LogPushModel: PushModel HandleCreation is now enabled
+[2026.04.13-12.40.15:241][550]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.04.13-12.40.15:242][550]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.04.13-12.40.15:242][550]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.04.13-12.40.15:242][550]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.04.13-12.40.15:242][550]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22 IpNetDriver listening on port 17777
+[2026.04.13-12.40.15:246][550]PIE: Server logged in
+[2026.04.13-12.40.15:248][550]PIE: Play in editor total start time 0.113 seconds.
+[2026.04.13-12.40.15:248][550]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.04.13-12.40.15:250][550]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2026.04.13-12.40.15:250][550]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.13-12.40.15:250][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.13-12.40.15:250][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.13-12.40.15:250][550]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.13-12.40.15:250][550]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.13-12.40.15:250][550]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.13-12.40.15:251][550]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.13-12.40.15:267][550]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.04.13-12.40.15:268][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.13-12.40.15:268][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.13-12.40.15:268][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.13-12.40.15:268][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.04.13-12.40.15:268][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2026.04.13-12.40.15:270][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.04.13-12.40.15:270][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.04.13-12.40.15:270][550]LogInit: FAudioDevice initialized with ID 25.
+[2026.04.13-12.40.15:270][550]LogAudio: Display: Audio Device (ID: 25) registered with world 'Untitled'.
+[2026.04.13-12.40.15:270][550]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.04.13-12.40.15:297][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.13-12.40.15:297][550]LogGlobalStatus: UEngine::Browse Started Browse: "127.0.0.1:17777/Game/TopDown/Lvl_TopDown"
+[2026.04.13-12.40.15:297][550]LogNet: Browse: 127.0.0.1:17777/Game/TopDown/Lvl_TopDown
+[2026.04.13-12.40.15:298][550]LogPushModel: PushModel HandleCreation is now enabled
+[2026.04.13-12.40.15:298][550]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.04.13-12.40.15:298][550]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2026.04.13-12.40.15:298][550]LogNet: Created socket for bind address: 0.0.0.0:0
+[2026.04.13-12.40.15:298][550]LogNet: IpConnection_22 setting maximum channels to: 32767
+[2026.04.13-12.40.15:298][550]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.04.13-12.40.15:298][550]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 4
+[2026.04.13-12.40.15:298][550]LogNet: Game client on port 17777, rate 100000
+[2026.04.13-12.40.15:301][550]PIE: Client logged in
+[2026.04.13-12.40.15:304][550]PIE: Play in editor total start time 0.168 seconds.
+[2026.04.13-12.40.15:390][550]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.13-12.40.16:307][647]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56996
+[2026.04.13-12.40.16:307][647]LogHandshake: SendConnectChallenge. Timestamp: 1.184535, Cookie: 106194217144058113071094165077041048129180029024247145171124
+[2026.04.13-12.40.16:308][647]LogHandshake: Cached server SessionID: 0
+[2026.04.13-12.40.16:308][647]LogHandshake: SendChallengeResponse. Timestamp: 1.184535, Cookie: 106194217144058113071094165077041048129180029024247145171124
+[2026.04.13-12.40.16:315][648]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56996
+[2026.04.13-12.40.16:315][648]LogHandshake: SendChallengeAck. InCookie: 106194217144058113071094165077041048129180029024247145171124
+[2026.04.13-12.40.16:315][648]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56996
+[2026.04.13-12.40.16:315][648]LogNet: IpConnection_23 setting maximum channels to: 32767
+[2026.04.13-12.40.16:316][648]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.04.13-12.40.16:316][648]LogNet: NotifyAcceptedConnection: Name: Lvl_TopDown, TimeStamp: 04/13/26 14:40:16, [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.04.13-12.40.16:316][648]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.04.13-12.40.16:316][648]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: Name:PendingNetDriver Def:GameNetDriver IpNetDriver_23, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.04.13-12.40.16:324][649]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown: Accepted
+[2026.04.13-12.40.16:324][649]LogNet: Remote platform little endian=1
+[2026.04.13-12.40.16:324][649]LogNet: This platform little endian=1
+[2026.04.13-12.40.16:326][649]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.04.13-12.40.16:332][650]LogNet: Login request: ?Name=DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4 userId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4 platform: NULL
+[2026.04.13-12.40.16:333][650]LogNet: Welcomed by server (Level: /Game/TopDown/UEDPIE_0_Lvl_TopDown, Game: /Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode_C)
+[2026.04.13-12.40.16:333][650]LogLoad: LoadMap: 127.0.0.1:17777/Game/TopDown/Lvl_TopDown?game=/Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode_C
+[2026.04.13-12.40.16:333][650]LogWorld: BeginTearingDown for /Temp/Untitled_12
+[2026.04.13-12.40.16:334][650]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.04.13-12.40.16:334][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.13-12.40.16:351][650]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.13-12.40.16:352][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.04.13-12.40.16:363][650]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.13-12.40.16:364][650]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.289 ms (total: 33.048 ms)
+[2026.04.13-12.40.16:364][650]LogAudio: Display: Audio Device (ID: 25) registered with world 'Lvl_TopDown'.
+[2026.04.13-12.40.16:364][650]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.04.13-12.40.16:365][650]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.13-12.40.16:365][650]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.13-12.40.16:365][650]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_1_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.13-12.40.16:365][650]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.13-12.40.16:367][650]LogWorldPartition: Display: WorldPartition initialize took 1.430 ms (total: 396.961 ms)
+[2026.04.13-12.40.16:367][650]LogPlayLevel: PIE: World Init took: (0.002391s)
+[2026.04.13-12.40.16:376][650]LogWorld: Bringing World /Game/TopDown/UEDPIE_1_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.04.13-14.40.16
+[2026.04.13-12.40.16:376][650]LogWorld: Bringing up level for play took: 0.008714
+[2026.04.13-12.40.16:376][650]LogLoad: Took 0.042666 seconds to LoadMap(/Game/TopDown/Lvl_TopDown)
+[2026.04.13-12.40.16:376][650]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Lvl_TopDown
+[2026.04.13-12.40.16:376][650]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2026.04.13-12.40.16:383][651]LogNet: Client netspeed is 100000
+[2026.04.13-12.40.16:383][651]LogNet: Join request: /Game/TopDown/Lvl_TopDown?Name=DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4?SplitscreenCount=1
+[2026.04.13-12.40.16:384][651]LogBlueprintUserMessages: [BP_TopDownGameMode_C_0] Server: Player:1
+[2026.04.13-12.40.16:384][651]LogNet: Join succeeded: DESKTOP-MPAQ2LQ-23DE
+[2026.04.13-12.40.16:447][651]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.13-12.40.26:833][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.13-12.40.26:833][684]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_1_Lvl_TopDown
+[2026.04.13-12.40.26:833][684]LogSlate: Window 'JustWorkYouCunt Preview [NetMode: Client 1]  (64-bit/PC D3D SM6)' being destroyed
+[2026.04.13-12.40.26:837][684]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.04.13-12.40.26:838][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.13-12.40.26:838][684]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_1_Lvl_TopDown.Lvl_TopDown
+[2026.04.13-12.40.26:839][684]LogNet: World NetDriver shutdown IpNetDriver_23 [GameNetDriver]
+[2026.04.13-12.40.26:839][684]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23 
+[2026.04.13-12.40.26:839][684]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23, IsServer: NO, PC: BP_TopDownController_C_0, Owner: BP_TopDownController_C_0, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4, Channels: 17, Time: 2026.04.13-12.40.26
+[2026.04.13-12.40.26:839][684]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23, IsServer: NO, PC: BP_TopDownController_C_0, Owner: BP_TopDownController_C_0, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4
+[2026.04.13-12.40.26:839][684]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23 shut down
+[2026.04.13-12.40.26:839][684]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.04.13-12.40.26:839][684]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.04.13-12.40.26:839][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.13-12.40.26:839][684]LogSlate: Window 'JustWorkYouCunt Preview [NetMode: Server 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.04.13-12.40.26:843][684]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.04.13-12.40.26:844][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.13-12.40.26:844][684]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.04.13-12.40.26:846][684]LogNet: World NetDriver shutdown IpNetDriver_22 [GameNetDriver]
+[2026.04.13-12.40.26:846][684]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22 
+[2026.04.13-12.40.26:846][684]LogNet: UNetConnection::SendCloseReason:
+[2026.04.13-12.40.26:846][684]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2026.04.13-12.40.26:846][684]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: BP_TopDownController_C_1, Owner: BP_TopDownController_C_1, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4
+[2026.04.13-12.40.26:846][684]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: BP_TopDownController_C_1, Owner: BP_TopDownController_C_1, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4, Channels: 17, Time: 2026.04.13-12.40.26
+[2026.04.13-12.40.26:846][684]LogNet: UNetConnection::SendCloseReason:
+[2026.04.13-12.40.26:846][684]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2026.04.13-12.40.26:846][684]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: BP_TopDownController_C_1, Owner: BP_TopDownController_C_1, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4
+[2026.04.13-12.40.26:846][684]LogNet: UNetDriver::RemoveClientConnection - Removed address 127.0.0.1:56996 from MappedClientConnections for: [UNetConnection] RemoteAddr: 127.0.0.1:56996, Name: IpConnection_23, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22, IsServer: YES, PC: BP_TopDownController_C_1, Owner: BP_TopDownController_C_1, UniqueId: NULL:DESKTOP-MPAQ2LQ-23DEF8BC4200D754D349B996331828E4
+[2026.04.13-12.40.26:847][684]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22 shut down
+[2026.04.13-12.40.26:847][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.13-12.40.26:851][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.13-12.40.26:873][684]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.04.13-12.40.26:873][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2026.04.13-12.40.26:874][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2026.04.13-12.40.26:877][684]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.04.13-12.40.26:877][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2026.04.13-12.40.26:879][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2026.04.13-12.40.26:887][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.04.13-12.40.26:941][685]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.04.13-12.40.26:942][685]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.04.13-12.41.59:223][ 61]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2901.790527
+[2026.04.13-12.42.00:223][ 64]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.13-12.42.00:223][ 64]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2902.457275, Update Interval: 333.968933
